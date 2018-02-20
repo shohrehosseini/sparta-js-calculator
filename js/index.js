@@ -21,6 +21,12 @@ if (chosen_calculator == "b") {
 	var basic_operation = prompt ("Which operation do you want to run? (1)Additon, (2)Multiplication, (3)Division or (4)Subtraction")
 	var first_number = prompt ("Type your first number");
 	var second_number = prompt ("Type your second number");
+	if (basic_operation == 1) {
+		function addNumbers (irst_number, second_number) {
+			var result_addition = first_number + second_number;
+			return result_addition;
+		}
+	}
 } else {
 	var advanced_operation = prompt ("Which operation do you want to run? (5)Power, (6)Square root")
 	var number = prompt ("Type your number");
