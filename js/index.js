@@ -2,6 +2,7 @@
 alert ("Hello and welcome to Sparta-js-Calculator!")
 var chosen_calculator = prompt("Which calculator do you want to use? (b)asic and (a)dvanced");
 
+//Define all variables.
 var basic_calculator = "b";
 var advanced_calculator = "a";
 
@@ -25,6 +26,7 @@ if (chosen_calculator == "b") {
 	var number = prompt ("Type your number");
 }
 
+/*
 if (chosen_calculator = "b" && basic_operation = 1) {
 	function addnum (first_number, second_number){
 	var sum = first_number + second_number
@@ -32,6 +34,7 @@ if (chosen_calculator = "b" && basic_operation = 1) {
 	break;	
 	}
 }
+*/
 
 
 

@@ -1,52 +1,43 @@
-# sparta-js-calculator
-# Calculator
+#Calculator
 
-## Timings
-45 - 90 minutes
+
 ##Tasks
-Your task is to write a command line calculator application that has two settings, (b)asic and (a)dvanced.
+In this task, I am going to use JavaScript to write a command line calculator application that has two settings, (b)asic and (a)dvanced.
 
-* First you will need to ask the user for which calculator they want to use
-* Then you will need to ask the user for the numbers to operate on.
-* Then you need to work out what to do with the numbers, depending on what operation they choose.
+* First I ask the user for which calculator they want to use
+* Then, based on the selected ssetting, I ask the user for the number(s) to operate on. I used if/else for this step.
+* Then, I need to write if/elseif/ else to apply functions on number(s).
 
-Basic:
+The basic calculator must be able to run the following operations:
 
 - Additon
 - Multiplication
 - Division
 - Subtraction
 
-Advanced:
+And, the advanced alculator must be able to run the following operations:
 
 - Power
 - Square root
 
-##Setup
-There is no starter code for this app.
+<br>
 
-##Hints
-Get user input 
-
-- var hello = prompt("What is your name")
-- Output to console - console.log(hello)
-
-Bonus task 
+##Bonus task 
 
 - Add some additional functionality
-- Add the following calculator feature into your app.
+- Add the following calculator feature into your app:
 
-###BMI Calculator
+####BMI Calculator
 Calculate the BMI when given the height and weight
 
 - the user should be able to choose between the imperial and the metric system
 - BMI Link 1
 - BMI Link 1
 
-###SUPER Bonus task
+####SUPER Bonus task
 Add the following calculator feature into your app.
 
-###Trip Calculator
+####Trip Calculator
 This feature asks the user for four inputs; 
 
 - distance,
