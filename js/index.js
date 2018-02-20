@@ -22,7 +22,7 @@ if (chosen_calculator == "b") {
 	var first_number = prompt ("Type your first number");
 	var second_number = prompt ("Type your second number");
 	if (basic_operation == 1) {
-		function addNumbers (irst_number, second_number) {
+		function addNumbers (first_number, second_number) {
 			var result_addition = first_number + second_number;
 			return result_addition;
 		}
